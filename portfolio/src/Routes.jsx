@@ -7,9 +7,6 @@ const Routes = () => {
     <Router>
       <Switch>
         <Route path="/" component={Home} />
-        <Route path="/:">
-            <Redirect to="/" />
-        </Route>
       </Switch>
     </Router>
   );

@@ -6,6 +6,12 @@ module.exports = {
   ],
   theme: {
     extend: {
+      fontSize: {
+        med: '18px',
+      },
+      fontFamily: {
+        montserrat: ["Montserrat", "sans-serif"],
+      },
       colors: {
         'mainlt' : '#e2e8f0',
         'maindk' : '#0f172am',
@@ -14,4 +20,3 @@ module.exports = {
   },
   plugins: [],
 }
-
